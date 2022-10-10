@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Avesha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__bar">
+                <div class="header__bar-logo">
+                    <svg width="150" height="12" viewBox="0 0 150 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.0238 11.625L16.6911 11.6085L14.1862 8.45701H7.12875L8.69707 6.51001H12.6396L10.0476 3.25951L3.33865 11.6085H0.00598145L8.08717 1.42801C8.29049 1.16401 8.57365 0.922012 8.93667 0.702011C9.37232 0.44901 9.7644 0.32251 10.1129 0.32251C10.4905 0.32251 10.8826 0.443508 11.2891 0.685511C11.6377 0.89451 11.9208 1.14201 12.1387 1.42801L20.0238 11.625ZM43.1917 0.355511L34.6967 10.701C34.1013 11.438 33.564 11.8065 33.0848 11.8065C32.6201 11.8065 32.09 11.438 31.4947 10.701L23.1739 0.355511H26.5066L33.1501 8.72101L39.859 0.355511H43.1917ZM65.2327 6.88951H56.7377V4.92601H65.2327V6.88951ZM65.908 11.625H53.0565V0.355511H65.908V2.31901H55.6486V9.66151H65.908V11.625ZM93.303 8.14351C93.303 9.2105 92.802 10.0685 91.8 10.7175C90.8416 11.3225 89.6436 11.625 88.206 11.625H76.8575V9.66151H88.206C88.9174 9.66151 89.5347 9.5405 90.0575 9.29851C90.6525 9.00151 90.9505 8.6 90.9505 8.09401C90.9505 7.58802 90.6456 7.1975 90.0357 6.92251C89.5273 6.69151 88.9174 6.57601 88.206 6.57601H81.1921C79.8995 6.57601 78.8179 6.3065 77.9466 5.76751C77.0169 5.1845 76.5525 4.41451 76.5525 3.45751C76.5525 2.51151 77.0169 1.74701 77.9466 1.16401C78.8179 0.625012 79.8995 0.355511 81.1921 0.355511H92.4099V2.31901H81.1921C80.6981 2.31901 80.2773 2.42351 79.9287 2.63251C79.5802 2.84151 79.406 3.12201 79.406 3.47401C79.406 3.83701 79.5802 4.11751 79.9287 4.31551C80.2773 4.51351 80.6981 4.61251 81.1921 4.61251H88.206C89.6436 4.61251 90.8416 4.92601 91.8 5.55301C92.802 6.21301 93.303 7.07652 93.303 8.14351ZM119.31 11.625H116.718V6.93901H107.984V4.97551H116.718V0.355511H119.31V11.625ZM106.807 11.625H104.215V0.355511H106.807V11.625ZM149.641 11.625L146.308 11.6085L143.803 8.45701H136.746L138.314 6.51001H142.256L139.664 3.25951L132.955 11.6085H129.623L137.704 1.42801C137.907 1.16401 138.19 0.922012 138.553 0.702011C138.989 0.44901 139.381 0.32251 139.73 0.32251C140.107 0.32251 140.499 0.443508 140.906 0.685511C141.254 0.89451 141.538 1.14201 141.755 1.42801L149.641 11.625Z" fill="url(#paint0_linear_3_66)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_3_66" x1="74.505" y1="-1.87499" x2="74.505" y2="15.375" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#00B9FF"/>
+                        <stop offset="1" stop-color="#0068B5"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+
+                </div>
+                <ul class="header__bar-menu">
+                    <li class="header__bar-item-Home"><a href="#" class="header__bar-item">Home</a></li>
+                    <li class="header__bar-item-Platform"><a href="#" class="header__bar-item">Platform</a><svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86602 4.5C3.48112 5.16667 2.51887 5.16667 2.13397 4.5L0.401923 1.5C0.0170226 0.833333 0.498148 5.6841e-07 1.26795 5.01112e-07L4.73205 1.9827e-07C5.50185 1.30972e-07 5.98298 0.833334 5.59808 1.5L3.86602 4.5Z" fill="#4F4F4F"/>
+                        </svg>
+                        </li>
+                    <li class="header__bar-item-Products"><a href="#" class="header__bar-item">Products</a><svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86602 4.5C3.48112 5.16667 2.51887 5.16667 2.13397 4.5L0.401923 1.5C0.0170226 0.833333 0.498148 5.6841e-07 1.26795 5.01112e-07L4.73205 1.9827e-07C5.50185 1.30972e-07 5.98298 0.833334 5.59808 1.5L3.86602 4.5Z" fill="#4F4F4F"/>
+                        </svg>
+                        </li>
+                    <li class="header__bar-item-Solutions"><a href="#" class="header__bar-item">Solutions</a><svg width="6" height="5" viewBox="0 0 6 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86602 4.5C3.48112 5.16667 2.51887 5.16667 2.13397 4.5L0.401923 1.5C0.0170226 0.833333 0.498148 5.6841e-07 1.26795 5.01112e-07L4.73205 1.9827e-07C5.50185 1.30972e-07 5.98298 0.833334 5.59808 1.5L3.86602 4.5Z" fill="#4F4F4F"/>
+                        </svg>
+                        </li>
+                    <li class="header__bar-item-News"><a href="#" class="header__bar-item">News</a></li>
+                    <li class="header__bar-item-Blog"><a href="#" class="header__bar-item">Blog</a></li>
+                    <li class="header__bar-item-Contact"><a href="#" class="header__bar-item">Contact</a></li>
+                </ul>
+                <button class="header__bar-btn">Request Demo</button>
+            </div>
+            <div class="header__content">
+                    <div class="header__content-logo">
+                        <svg width="47" height="27" viewBox="0 0 47 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.2051 0.595687C24.1156 0.506678 24.0109 0.436565 23.8975 0.387511C23.7684 0.331478 23.6333 0.304828 23.5 0.304932C23.3667 0.304828 23.2316 0.331481 23.1025 0.387514C22.9891 0.436569 22.8844 0.506678 22.7949 0.595687C22.7146 0.675439 22.6495 0.767443 22.601 0.867054L17.4441 11.1809L2.10782 0.841831C1.74383 0.596443 1.26236 0.617134 0.92076 0.892844C0.579161 1.16855 0.457316 1.63481 0.620351 2.04239L10.1325 25.8228C10.2844 26.2025 10.6521 26.4515 11.061 26.4515H23.5H35.939C36.3479 26.4515 36.7156 26.2025 36.8675 25.8228L46.3797 2.04239C46.5427 1.63481 46.4209 1.16855 46.0793 0.892844C45.7377 0.617134 45.2562 0.596443 44.8922 0.841831L29.5559 11.1809L24.399 0.867054C24.3505 0.767443 24.2854 0.675439 24.2051 0.595687ZM23.5 3.54122L19.1156 12.3101L23.5 15.2802L27.8845 12.3101L23.5 3.54122ZM23.5 17.7206L14.1593 24.4515H23.5H32.8408L23.5 17.7206ZM21.7544 16.5134L18.1921 14.1002L13.9403 22.1441L21.7544 16.5134ZM3.68406 4.31651L11.1868 23.0735L16.5254 12.9736L3.68406 4.31651ZM25.2457 16.5134L28.808 14.1002L33.0598 22.1441L25.2457 16.5134ZM43.316 4.31651L35.8132 23.0735L30.4747 12.9736L43.316 4.31651Z" fill="white"/>
+                            </svg>                        
+                    </div>
+                    <div class="header__content-title">Cloud Edge is here</div>
+                    <div class="header__content-subtitle">Are your applications ready ?</div>
+                    <div class="header__content-text">Cloud Edge presents new challenges to application developers, ranging from locating the<br> most optimal edge to rapidly deploying and managing the edge network. Avesha Smart<br> Network Application Platform (SNAP) makes your cloud applications Edge-Aware by<br> providing services to enable load balancing, AI enabled packet routing, AI based network<br> security and other network monitoring services to manage edge networks</div>
+                    <div class="header__content-buttons">
+                        <button class="header__content-leftbtn">Learn more</button>
+                        <button class="header__content-rightbtn">Request Demo</button>
+                    </div>
+                    <div class="header__content-more">
+                        <div class="header__content-arrowimage">
+                            <img src="/img/arrow-moredetails.png" alt="">
+                        </div>
+                        <div class="header__content-arrowname">More Details</div>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="section__title">Trend: Cloud to Edge</div>
+            <div class="section__text">Billions of new devices (with IOT, Sensors, AI) are collecting data to be processed.<br>
+                Some processing will be pushed closer to the devices on Edge locations to help eliminate<br>
+                latency, congestion problems and improve application performances.<br>
+                </div>
+            <div class="section__days">
+                <div class="section__today">
+                    <div class="section__today-status">
+                        <img src="/img/status-today.png" alt="">
+                    </div>
+                    <div class="section__today-title">
+                        TODAY: Hundreds of Cloud Locations
+                    </div>
+                    <div class="section__today-img">
+                        <img  src="/img/image-today.png" alt="">
+                    </div>
+                </div>
+                <div class="section__tomorrow">
+                    <div class="section__tomorrow">
+                        <div class="section__tomorrow-status">
+                            <img src="/img/status-tomorrow.png" alt="">
+                        </div>
+                        <div class="section__tomorrow-title">
+                            TOMORROW: Millions of Cloud Edge Locations
+                        </div>
+                         <div class="section__tomorrow-imges">
+                            <img src="/img/image-tomorrow-1.png" alt="" class="section__tomorrow-img1">
+                            <img src="/img/image-tomorrow-2.png" alt="" class="section__tomorrow-img2">
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__cloud-block">
+                <div class="section__cloud-title">
+                    Why Edge Enablement is needed?
+                </div>
+                <div class="section__cloud-text">
+                    When the Cloud was born, several
+                    companies who<br> ‘enabled the cloud’
+                    grew rapidly.
+                </div>
+                <div class="section__cloud-mainblock">
+                    <div class="section__cloud-arrows">
+                        <img src="/img/Vector.png" alt="">
+                        <img src="/img/Vector.png" alt="">
+                        <img src="/img/Vector.png" alt="">
+                        <img src="/img/Vector.png" alt="">
+                    </div>
+                    <div class="section__cloud-cloud-block">
+                        <img src="/img/cloud.png" alt="">
+                        <div class="section__cloud-cloud-text">Cloud</div>
+                    </div>
+                    <div class="section__cloud-scheme">
+                        <img src="/img/shame-1.png" alt="">
+                    </div>
+                    <div class="section__cloud-clouds-block">
+                        <img src="/img/manyclouds.png" alt="">
+                        <div class="section__cloud-clouds-text">Edge enable</div>
+                    </div>
+                    <div class="section__cloud-second-scheme">
+                        <img src="/img/shame-2.png" alt="">
+                    </div>
+                    <div class="section__cloud-rightblock-holder">
+                        <div class="section__cloud-up-text">
+                            With Edge still in nascent stage, the<br>
+                            new frontier is to <span>‘enable the edge’</span>
+                        </div>
+                        <div class="section__cloud-down-text">
+                            Edge needs a platform to Locate, Deploy,<br> Manage, Operate ,
+                            Optimize Data<br> 
+                            Movement and MORE...
+                        </div>
+                        <button class="section__cloud-btn">
+                            Request Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__snap">
+        <div class="container">
+            <div class="section__snap-title">
+                Avesha Smart Network Application Platform (SNAP)
+            </div>
+            <div class="section__snap-text">
+                SNAP is the industry’s first
+                AI-Edge-as-a-service platform
+                that enables creation,
+                deployment,<br> management of
+                Cloud Edge for smart, low
+                latency, high throughput
+                applications.
+            </div>
+            <div class="section__snap-holder">
+                <div class="section__snap-leftpath">
+                    <div class="section__snap-item">Edge<br>
+                        Application</div>
+                    <div class="section__snap-item snap__item-green">Hi Def<br>
+                        Video</div>
+                    <div class="section__snap-item snap__item-green">Medical<br>
+                        AI</div>
+                    <div class="section__snap-item snap__item-green">Face<br>
+                        Recognition</div>
+                    <div class="section__snap-item">Avesha<br>
+                        SNAP</div>
+                    <div class="section__snap-item snap__item-orange">Search<br>Low Latency<br>Multi Tenancy</div>
+                    <div class="section__snap-item snap__item-orange">Security<br>Realtime AI<br>Aplication Slicing</div>
+                    <div class="section__snap-item snap__item-orange">InterOperability<br>Compliance</div>
+                    <div class="section__snap-item">Artifical
+                        Intelligence</div>
+                    <div class="section__snap-item snap__item-orange-span">AI/ML Models and Frameworks</div>
+                    <div class="section__snap-item">Data</div>
+                    <div class="section__snap-item snap__item-orange-span-2">Data Lakes, Text, Video, Sensor, Ausio</div>
+                    <div class="section__snap-item">Infrastructure</div>
+                    <div class="section__snap-item snap__item-lightorange">
+                        <img src="/img/cloud-snap.png" alt="">
+                        <div class="snap__item-lightorange-text">Cloud</div>
+                    </div>
+                    <div class="section__snap-item snap__item-lightorange">
+                        <img src="/img/edge-snap.png" alt="">
+                        <div class="snap__item-lightorange-edgetext">Edge</div>
+                    </div>
+                    <div class="section__snap-item snap__item-lightorange">
+                        <img src="/img/network-snap.png" alt="">
+                        <div class="snap__item-lightorange-networktext">Network</div>
+                    </div>
+                </div>
+                <div class="section__snap-rightpath">
+                    <img src="/img/snap-people.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__video">
+        <div class="container">
+            <div class="section__video-title">
+                AI Edge-as-a-Service
+            </div>
+            <div class="section__video-parts">
+                <div class="section__video-leftpart">
+                    <div class="section__video-leftpart-text">
+                        AI Edge-as-a-service is the AI powered Edge Enablement<br> service that
+                        helps applications locate the edge; deploy,<br> manage & operate the edge
+                        and optimize data movement<br> so that your real-time apps have low
+                        latency, high<br> throughput, security and compliance.
+                        Real-time<br> applications running on the Edge need to process video,<br>
+                        images, audio, AR/VR. Boost them with Avesha<br> AI-Edge-as-a-service.
+                    </div>
+                    <div class="section__video-leftpart-holderbtns">
+                        <button class="section__video-leftpart-btn">
+                            Request Demo
+                        </button>
+                        <div class="section__video-leftpart-sign">
+                            Watch Video
+                                <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 4.13397C8.16667 4.51887 8.16667 5.48113 7.5 5.86603L1.5 9.33013C0.833334 9.71503 -4.47338e-07 9.2339 -4.13689e-07 8.4641L-1.10848e-07 1.5359C-7.71986e-08 0.766098 0.833333 0.284973 1.5 0.669873L7.5 4.13397Z" fill="url(#paint0_linear_7_5)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_7_5" x1="2.16" y1="-1" x2="2.23269" y2="11.0046" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF6753"/>
+                                <stop offset="1" stop-color="#FF8F50"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section__video-rightpart">
+                    <button>
+                        <a class="section__video-rightpart-link" >
+                            <img  src="/video-right-part.png" alt="">
+                            <div class="section__video-rightpart-img" >
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.8" cx="25" cy="25" r="25" fill="white"/>
+                                    <path d="M32.5 24.134C33.1667 24.5189 33.1667 25.4811 32.5 25.866L22 31.9282C21.3333 32.3131 20.5 31.832 20.5 31.0622L20.5 18.9378C20.5 18.168 21.3333 17.6869 22 18.0718L32.5 24.134Z" fill="url(#paint0_linear_7_9)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_7_9" x1="23.74" y1="16" x2="23.849" y2="34.007" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF6753"/>
+                                    <stop offset="1" stop-color="#FF8F50"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    
+                                <img src="/img/video-right-part.png" alt="">
+                            </div>
+                        </a>
+                            <div class="section__video-rightpart-video">
+                                <video src="/video/День Открытых Дверей В ПГУТИ.mp4" controls="true"></video>
+                                <div class="section__video-rightpart-close"></div>
+                            </div>
+                        
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__whysnap">
+        <div class="container">
+            <div class="section__whysnap-title">
+                Why Avesha SNAP?
+            </div>
+            <div class="section__whysnap-holder">
+                <div class="section__whysnap-item">
+                    <img src="/img/1-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Locate right Edge &<br>     
+                        Deploy
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/2-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Optimize Data<br>
+                        Movement
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/3-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Manage &<br>
+                        Operate Edge
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/4-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Security, Compliance,<br>
+                        Monitoring
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/5-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        AI Model Optimizer<br>
+                        Plugins
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/6-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Data Lake<br>
+                        Integrations
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/7-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        WorkFlow Automation
+                    </div>
+                </div>
+                <div class="section__whysnap-item">
+                    <img src="/img/8-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Voice Activation
+                    </div>
+                </div>
+                <div class="section__whysnap-item section__whysnap-item-last">
+                    <img src="/img/9-why.png" alt="">
+                    <div class="section__whysnap-item-text">
+                        Real time<br>
+                        Object Detection
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__products">
+        <div class="container">
+            <div class="section__products-title">
+                Products
+            </div>
+            <div class="section__products-parts">
+                <div class="section__products-left">
+                    <div class="section__products-left-title">
+                        Edge Provisioner
+                    </div>
+                    <img src="/img/provisioner.png" alt="">
+                    <div class="section__products-left-text">
+                        Avesha SNAP Edge Provisioner schedules sessions
+ in-advance or on-demand, uses AI<br> to identify the best
+ edge available, instantiates resources (compute, storage,<br>
+GPU), establishes connections from IoT device in
+ procedure room to the best edge and<br> controller in the
+ cloud. Also monitors performance of the network all
+ through its use.
+                    </div>
+                </div>
+                <div class="section__products-right">
+                    <div class="section__products-right-title">
+                        Edge Controller
+                    </div>
+                    <img src="/img/controller.png" alt="">
+                    <div class="section__products-right-text">
+                        Avesha Edge Controller Authenticates users, provides
+ dashboard for monitoring, shows<br> information on past
+ sessions ( performance, duration), provides secure access
+ &<br> storage according per HIPAA, helps manage DB of
+ medical records, videos and images.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__solutions">
+        <div class="container">
+            <div class="section__solutions-title">
+                Solutions
+            </div>
+            <div class="section__solutions-parts">
+                <div class="section__solutions-left">
+                    <div class="section__solutions-left-title">Medical AI Object Detection</div>
+                    <div class="section__solutions-left-text">Avesha Medical AI Object Detection helps deploy AI/ML models into
+                        the Avesha SNAP<br> platform. This solutions enables doctors, academic
+                        researchers or OEM application<br> builders to use their own AI/ML models
+                        real-time over an ultra low-latency, highly<br> reliable and secure Cloud
+                        Edge network.</div>
+                <ul class="section__solutions-left-list">
+                    <li class="section__solutions-left-item">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF6753"/>
+                        <stop offset="1" stop-color="#FF8F50"/>
+                        </linearGradient>
+                        </defs>
+                        </svg>
+                        Avesha LiveDetect UI gets real time inferences from an edge<br>
+                        based AI model and highlights objects of interest during a<br>
+                        procedure.
+                        </li>
+                    <li class="section__solutions-left-item">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FF6753"/>
+                            <stop offset="1" stop-color="#FF8F50"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                        Avesha Model Optimizer allows you to easily power your AI<br>
+                        model over a sophisticate edge network and integrate them<br>
+                        with enterprise applications. It specializes larger models<br>
+                        optimizing them to real-time performance</li>
+                    <li class="section__solutions-left-item">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FF6753"/>
+                            <stop offset="1" stop-color="#FF8F50"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                        Avesha ContexualLabel helps label large data sets faster, enables<br>
+                        annotations to data sets and get them reviewed faster.</li>
+                </ul>
+            </div>
+                <div class="section__solutions-right">
+                    <img src="/img/solutions-right.png" alt="">
+                    <button class="section__solutions-btn">Request Demo</button>
+                </div>
+            </div>
+            <div class="section__medical">
+                <div class="section__medical-title">
+                    Medical Procedure Workflow Optimization
+                    </div>
+                <div class="section__medical-parts">
+                    <div class="section__medical-left">                    
+                        <div class="section__medical-text">
+                        This is an AI WorkFlow Automation solution that seamlessly ties an
+    entire procedure<br> together by capturing rich data, reducing redundant
+    tasks, eliminating 100s of keyboard<br> clicks, generating reports - while the
+    procedure is in progress - ensuring all the above is<br> fast, accurate,
+    reliable, descriptive and secure.
+                    </div>
+                    <ul class="section__medical-left-list">
+                        <li class="section__medical-left-item">
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FF6753"/>
+                            <stop offset="1" stop-color="#FF8F50"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                            Avesha SNAP helps seamlessly integrate with any video-scope<br>
+                            manufacturer
+                            </li>
+                        <li class="section__medical-left-item">
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF6753"/>
+                                <stop offset="1" stop-color="#FF8F50"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                Avesha MyVoice enables training the NLP with the your own<br>
+                                diction for procedure specific vocabulary. Voice activation helps<br>
+                                capture images of object of interest and associated data<br>
+                        </li>
+                        <li class="section__medical-left-item">
+                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF6753"/>
+                                <stop offset="1" stop-color="#FF8F50"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                Avesha Wordsmith AI facilitates a two-way, bluetooth enabled<br>
+                                interactive NLP for contextual data captured during procedures to<br>
+                                fill out reports automatically<br>
+                        </li>
+                            <li class="section__medical-left-item">
+                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF6753"/>
+                                    <stop offset="1" stop-color="#FF8F50"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    Avesha EasyAccessDB, dynamic elastic DBs are created from<br>
+                                    video, images & data captured which helps in easy, secure<br>
+                                    retrieval, search and reporting. The DBs serve as a data lake for<br>
+                                    integrations with EMR systems using RPA<br>
+                            </li>
+                    </ul>
+                    </div>
+                    <div class="section__medical-right">
+                        <img src="/img/medical.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section__edge">
+                <div class="section__edge-parts">
+                    <div class="section__edge-left">
+                        <div class="section__edge-left-title">
+                            Cloud Edge Application Slicing
+                        </div>  
+                        <div class="section__edge-left-text">
+                            This is an AI WorkFlow Automation solution that seamlessly ties an
+ entire procedure<br> together by capturing rich data, reducing redundant
+ tasks, eliminating 100s of keyboard<br> clicks, generating reports - while the
+ procedure is in progress - ensuring all the above is<br> fast, accurate,
+ reliable, descriptive and secure.
+                        </div>
+                        <ul class="section__edge-left-list">
+                            <li class="section__edge-left-item">
+                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF6753"/>
+                                <stop offset="1" stop-color="#FF8F50"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                Avesha SNAP helps seamlessly integrate with any video-scope<br>
+                                manufacturer
+                                </li>
+                            <li class="section__edge-left-item">
+                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF6753"/>
+                                    <stop offset="1" stop-color="#FF8F50"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    Avesha MyVoice enables training the NLP with the your own<br>
+                                    diction for procedure specific vocabulary. Voice activation helps<br>
+                                    capture images of object of interest and associated data<br>
+                            </li>
+                            <li class="section__edge-left-item">
+                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="4" cy="4" r="4" fill="url(#paint0_linear_8_169)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_8_169" x1="6.69659e-09" y1="4.56" x2="8.0031" y2="4.51154" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF6753"/>
+                                    <stop offset="1" stop-color="#FF8F50"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    Avesha Wordsmith AI facilitates a two-way, bluetooth enabled<br>
+                                    interactive NLP for contextual data captured during procedures to<br>
+                                    fill out reports automatically<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section__edge-right">
+                        <img src="/img/radio.png" alt="">
+                        <button class="section__edge-btn">Request Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__news">
+        <div class="container">
+            <div class="section__news-title">
+                News
+            </div>
+            <div class="section__news-slider">
+                <div class="section__news-item">
+                        <img src="/img/clider-img (1).png" alt="">
+                    
+                    <div class="section__news-item-title">
+                        Cloud Edge Application Slicing
+                    </div>
+                    <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                    <button class="section__news-item-btn">
+                        <div class="section__news-btn-text">to read</div>
+                        </button>
+                </div>
+                <div class="section__news-item">
+                    <img src="/img/clider-img (2).png" alt="">
+                
+                <div class="section__news-item-title">
+                    Cloud Edge Application Slicing
+                </div>
+                <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                <button class="section__news-item-btn"><div class="section__news-btn-text">to read</div></button>
+                </div>
+                <div class="section__news-item">
+                    <img src="/img/clider-img (3).png" alt="">
+                
+                <div class="section__news-item-title">
+                    Cloud Edge Application Slicing
+                </div>
+                <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                <button class="section__news-item-btn"><div class="section__news-btn-text">to read</div></button>
+                </div>
+                <div class="section__news-item">
+                    <img src="/img/clider-img (1).png" alt="">
+                
+                <div class="section__news-item-title">
+                    Cloud Edge Application Slicing
+                </div>
+                <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                <button class="section__news-item-btn"><div class="section__news-btn-text">to read</div></button>
+                </div>
+                <div class="section__news-item">
+                    <img src="/img/clider-img (2).png" alt="">
+                
+                <div class="section__news-item-title">
+                    Cloud Edge Application Slicing
+                </div>
+                <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                <button class="section__news-item-btn"><div class="section__news-btn-text">to read</div></button>
+                </div>
+                <div class="section__news-item">
+                    <img src="/img/clider-img (3).png" alt="">
+                
+                <div class="section__news-item-title">
+                    Cloud Edge Application Slicing
+                </div>
+                <div class="section__news-item-text">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since</div>
+                <button class="section__news-item-btn"><div class="section__news-btn-text">to read</div></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__talkUs">
+        <div class="container">
+            <div class="section__talkUs-title">
+                Talk to us!
+            </div>
+            <div class="section__talkUs-subtitle">
+                Thank you for your interest in Avesha SNAP Platform. Complete the form<br>
+                below and some will reach out shortly to you.
+            </div>
+            <div class="section__talkUs-parts">
+                <div class="section__talkUs-block">
+                    <input class="section__talkUs-input section__talkUs-name" type="text" placeholder="Name*">
+                    <input class="section__talkUs-input section__talkUs-email" type="email" placeholder="E-mail*">
+                    <textarea cols="40" rows="5" class="section__talkUs-input section__talkUs-message" placeholder="Enter Your Message Here"></textarea>
+                    <button class="section__talkUs-btn"><div class="section__talkUs-btn-text">Submit</div></button>
+                </div>
+                <div class="section__talkUs-img">
+                    <div class="section__talkUs-img-text">
+                        Real time applications (AI, IoT, Medical, Gaming, Industrial 4.0<br>
+and more ) require the Edge for speed, security, resiliency and<br>
+cost benefits. Avesha platform uses AI to locate, deploy,<br>
+manage and optimize your Edge.
+                    </div>
+                    <img src="/img/talk to us.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__avesha"><svg width="212" height="69" viewBox="0 0 212 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_8_777)">
+                    <path d="M28.3002 68.4698L23.59 68.4464L20.0497 63.985H10.0752L12.2918 61.2287H17.8639L14.2005 56.627L4.71854 68.4464H0.00836182L11.4298 54.0343C11.7171 53.6605 12.1173 53.3179 12.6304 53.0065C13.2461 52.6483 13.8003 52.4692 14.2928 52.4692C14.8265 52.4692 15.3806 52.6405 15.9552 52.9831C16.4478 53.279 16.848 53.6294 17.1559 54.0343L28.3002 68.4698ZM61.0442 52.516L49.0379 67.1617C48.1964 68.205 47.437 68.7267 46.7597 68.7267C46.103 68.7267 45.3538 68.205 44.5124 67.1617L32.7524 52.516H37.4625L46.8521 64.3587L56.334 52.516H61.0442ZM92.1955 61.7659H80.1891V58.9863H92.1955V61.7659ZM93.1498 68.4698H74.9864V52.516H93.1498V55.2956H78.6499V65.6901H93.1498V68.4698ZM131.868 63.5412C131.868 65.0517 131.16 66.2663 129.744 67.1851C128.389 68.0415 126.696 68.4698 124.664 68.4698H108.625V65.6901H124.664C125.67 65.6901 126.542 65.5188 127.281 65.1762C128.122 64.7558 128.543 64.1874 128.543 63.4711C128.543 62.7548 128.112 62.2019 127.25 61.8126C126.532 61.4856 125.67 61.3221 124.664 61.3221H114.751C112.925 61.3221 111.396 60.9406 110.164 60.1775C108.85 59.3522 108.194 58.2621 108.194 56.9073C108.194 55.5681 108.85 54.4859 110.164 53.6605C111.396 52.8975 112.925 52.516 114.751 52.516H130.606V55.2956H114.751C114.053 55.2956 113.458 55.4436 112.966 55.7394C112.473 56.0353 112.227 56.4324 112.227 56.9307C112.227 57.4446 112.473 57.8417 112.966 58.122C113.458 58.4023 114.053 58.5424 114.751 58.5424H124.664C126.696 58.5424 128.389 58.9863 129.744 59.8739C131.16 60.8082 131.868 62.0307 131.868 63.5412ZM168.625 68.4698H164.962V61.836H152.617V59.0563H164.962V52.516H168.625V68.4698ZM150.954 68.4698H147.291V52.516H150.954V68.4698ZM211.492 68.4698L206.782 68.4464L203.242 63.985H193.267L195.484 61.2287H201.056L197.392 56.627L187.91 68.4464H183.2L194.622 54.0343C194.908 53.6605 195.309 53.3179 195.822 53.0065C196.438 52.6483 196.992 52.4692 197.485 52.4692C198.018 52.4692 198.572 52.6405 199.147 52.9831C199.64 53.279 200.04 53.6294 200.348 54.0343L211.492 68.4698Z" fill="url(#paint0_linear_8_777)"/>
+                    </g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M107.024 0.29292C106.935 0.203206 106.83 0.132544 106.716 0.0831184C106.586 0.0267177 106.451 -0.000104035 106.317 3.03215e-07C106.183 -0.000104035 106.048 0.0267191 105.918 0.0831198C105.805 0.132546 105.7 0.203206 105.61 0.29292C105.531 0.372095 105.466 0.463235 105.418 0.561836L98.8751 13.6389L79.5588 0.625825C79.1948 0.380565 78.7133 0.401403 78.3718 0.677201C78.0303 0.952999 77.9086 1.41927 78.0717 1.8268L89.9091 31.3993C90.061 31.7789 90.4287 32.0277 90.8375 32.0277H106.317H121.797C122.206 32.0277 122.573 31.7789 122.725 31.3993L134.563 1.8268C134.726 1.41927 134.604 0.952999 134.262 0.677201C133.921 0.401403 133.439 0.380565 133.075 0.625825L113.759 13.6389L107.216 0.561836C107.168 0.463235 107.104 0.372095 107.024 0.29292ZM106.317 3.23502L100.547 14.7674L106.317 18.6736L112.087 14.7674L106.317 3.23502ZM106.317 21.1134L93.9375 30.0277H106.317H118.697L106.317 21.1134ZM104.571 19.9065L99.6229 16.5571L93.7175 27.7216L104.571 19.9065ZM81.1358 4.09972L90.9633 28.6511L97.9559 15.4311L81.1358 4.09972ZM108.064 19.9065L113.011 16.5571L118.917 27.7216L108.064 19.9065ZM131.498 4.09972L121.671 28.6511L114.678 15.4311L131.498 4.09972Z" fill="#5B9BD5"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_8_777" x1="105.3" y1="49.3583" x2="105.3" y2="73.7785" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#00B9FF"/>
+                    <stop offset="1" stop-color="#0068B5"/>
+                    </linearGradient>
+                    <clipPath id="clip0_8_777">
+                    <rect width="212" height="16.988" fill="white" transform="translate(0 52.0122)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    </div>
+                <div class="footer__copyright">Copyright ©2020 all rights reserved Avesha</div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="/js/js.js"></script>
+    <script src="/js/slaider.js"></script>
+</body>
+</html>
